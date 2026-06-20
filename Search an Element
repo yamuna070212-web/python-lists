@@ -1,0 +1,12 @@
+numbers = [10, 20, 30, 40]
+
+element = 30
+
+if element in numbers:
+    print("Found")
+else:
+    print("Not Found")
+
+Output
+
+Found

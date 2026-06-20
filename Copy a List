@@ -1,0 +1,9 @@
+numbers = [10, 20, 30]
+
+copy_list = numbers.copy()
+
+print(copy_list)
+
+Output
+
+[10, 20, 30]

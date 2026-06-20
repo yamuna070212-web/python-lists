@@ -1,0 +1,9 @@
+numbers = [10, 20, 30, 40]
+
+numbers[0], numbers[-1] = numbers[-1], numbers[0]
+
+print(numbers)
+
+Output
+
+[40, 20, 30, 10]

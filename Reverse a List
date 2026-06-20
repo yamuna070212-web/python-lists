@@ -1,0 +1,9 @@
+numbers = [10, 20, 30, 40]
+
+numbers.reverse()
+
+print(numbers)
+
+Output
+
+[40, 30, 20, 10]

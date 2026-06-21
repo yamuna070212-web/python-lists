@@ -1,0 +1,20 @@
+numbers = [4, 5, 2, 25]
+
+for i in range(len(numbers)):
+
+    next_greater = -1
+
+    for j in range(i+1, len(numbers)):
+
+        if numbers[j] > numbers[i]:
+            next_greater = numbers[j]
+            break
+
+    print(numbers[i], "->", next_greater)
+
+Output
+
+4 -> 5
+5 -> 25
+2 -> 25
+25 -> -1

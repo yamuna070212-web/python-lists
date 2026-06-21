@@ -1,0 +1,11 @@
+numbers = [7, 1, 5, 3, 9]
+
+numbers.sort()
+
+median = numbers[len(numbers)//2]
+
+print(median)
+
+Output
+
+5

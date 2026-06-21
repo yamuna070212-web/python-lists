@@ -1,0 +1,12 @@
+matrix = [
+    [1,2],
+    [3,4]
+]
+
+rotated = [list(row) for row in zip(*matrix[::-1])]
+
+print(rotated)
+
+Output
+
+[[3, 1], [4, 2]]

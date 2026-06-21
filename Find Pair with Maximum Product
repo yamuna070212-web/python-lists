@@ -1,0 +1,9 @@
+numbers = [1, 4, 3, 6, 7, 0]
+
+numbers.sort()
+
+print(numbers[-1] * numbers[-2])
+
+Output
+
+42

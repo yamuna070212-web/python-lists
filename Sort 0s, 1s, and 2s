@@ -1,0 +1,9 @@
+numbers = [0, 2, 1, 2, 0, 1]
+
+numbers.sort()
+
+print(numbers)
+
+Output
+
+[0, 0, 1, 1, 2, 2]

@@ -1,0 +1,9 @@
+numbers = [2, 2, 1, 1, 2, 2, 2]
+
+majority = max(set(numbers), key=numbers.count)
+
+print(majority)
+
+Output
+
+2

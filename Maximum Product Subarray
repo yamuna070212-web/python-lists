@@ -1,0 +1,16 @@
+numbers = [2, 3, -2, 4]
+
+max_product = numbers[0]
+
+for i in range(len(numbers)):
+    product = 1
+
+    for j in range(i, len(numbers)):
+        product *= numbers[j]
+        max_product = max(max_product, product)
+
+print(max_product)
+
+Output
+
+6
